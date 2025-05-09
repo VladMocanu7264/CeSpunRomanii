@@ -1,0 +1,34 @@
+.buzzer-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(circle, #001c3f, #000000);
+    color: white;
+    text-align: center;
+}
+
+.team-name {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 8px #000;
+}
+
+.buzzer-button {
+    background: transparent;
+    border: none;
+    padding: 0;
+    outline: none;
+}
+
+.buzzer-image {
+    width: 80vw;
+    max-width: 300px;
+    height: auto;
+    transition: transform 0.1s ease-in-out;
+}
+
+.buzzer-button:active .buzzer-image {
+    transform: scale(0.95);
+}
