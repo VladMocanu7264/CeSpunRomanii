@@ -166,3 +166,37 @@
 .controls button:hover {
     transform: scale(1.05);
 }
+
+.multiplier-display {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #f5c542;
+    text-shadow: 1px 1px 2px black;
+    margin-bottom: 1rem;
+}
+
+.game-over {
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.game-over h1 {
+    font-size: 3rem;
+    color: #f5c542;
+    text-shadow: 2px 2px 10px black;
+}
+
+.back-home-button {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: #f5c542;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
