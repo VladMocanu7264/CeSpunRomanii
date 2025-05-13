@@ -1,5 +1,7 @@
 name: Build and deploy FastAPI app to Azure Web App - family-feud-backend
 
+#Just to push secrets
+
 on:
   push:
     branches:
