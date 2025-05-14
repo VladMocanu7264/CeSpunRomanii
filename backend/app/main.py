@@ -31,13 +31,14 @@ QUESTIONNAIRE_DIR = os.path.join(os.path.dirname(__file__), "questionnaires")
 
 @app.get("/questionnaires")
 def list_questionnaires():
-    files = [f for f in os.listdir(QUESTIONNAIRE_DIR) if f.endswith(".json")]
-    result = []
-    for f in files:
-        with open(os.path.join(QUESTIONNAIRE_DIR, f), encoding="utf-8") as file:
-            data = json.load(file)
-            result.append({"id": data["id"], "name": data["name"]})
-    return result
+    return [{"id": "drinks", "name": "Băuturi"}]
+    # files = [f for f in os.listdir(QUESTIONNAIRE_DIR) if f.endswith(".json")]
+    # result = []
+    # for f in files:
+    #     with open(os.path.join(QUESTIONNAIRE_DIR, f), encoding="utf-8") as file:
+    #         data = json.load(file)
+    #         result.append({"id": data["id"], "name": data["name"]})
+    # return result
 
 
 @app.post("/start-game")
