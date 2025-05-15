@@ -1,0 +1,186 @@
+{
+  "id": "clasa8",
+  "name": "Activitate Ce Spun Românii - Clasa a 8-a",
+  "questions": [
+    {
+      "text": "Ce faci în pauză?",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Mănânc",
+          "score": 30
+        },
+        {
+          "text": "Vorbesc cu colegii",
+          "score": 25
+        },
+        {
+          "text": "Mă joc pe telefon",
+          "score": 20
+        },
+        {
+          "text": "Alerg prin curte",
+          "score": 10
+        },
+        {
+          "text": "Îmi fac temele",
+          "score": 10
+        },
+        {
+          "text": "Mă uit pe TikTok",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "text": "Ce faci vacanța asta de vară?",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Merg la mare",
+          "score": 25
+        },
+        {
+          "text": "Dorm mult",
+          "score": 20
+        },
+        {
+          "text": "Plec în străinătate",
+          "score": 15
+        },
+        {
+          "text": "Mă joc pe calculator",
+          "score": 15
+        },
+        {
+          "text": "Ies cu prietenii",
+          "score": 15
+        },
+        {
+          "text": "Stau acasă relaxat",
+          "score": 10
+        }
+      ]
+    },
+    {
+      "text": "Ce materie ți se pare cea mai grea?",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Matematică",
+          "score": 35
+        },
+        {
+          "text": "Fizică",
+          "score": 20
+        },
+        {
+          "text": "Chimie",
+          "score": 15
+        },
+        {
+          "text": "Română",
+          "score": 10
+        },
+        {
+          "text": "Biologie",
+          "score": 10
+        },
+        {
+          "text": "Engleză",
+          "score": 10
+        }
+      ]
+    },
+    {
+      "text": "Ce faci în timpul liber?",
+      "multiplier": 2,
+      "answers": [
+        {
+          "text": "Joc pe calculator / consolă",
+          "score": 30
+        },
+        {
+          "text": "Mă uit la filme / seriale",
+          "score": 20
+        },
+        {
+          "text": "Ascult muzică",
+          "score": 15
+        },
+        {
+          "text": "Vorbesc cu prietenii",
+          "score": 15
+        },
+        {
+          "text": "Citesc",
+          "score": 10
+        },
+        {
+          "text": "Ies afară",
+          "score": 10
+        }
+      ]
+    },
+    {
+      "text": "Ce aplicație folosești cel mai mult?",
+      "multiplier": 2,
+      "answers": [
+        {
+          "text": "TikTok",
+          "score": 30
+        },
+        {
+          "text": "Instagram",
+          "score": 25
+        },
+        {
+          "text": "YouTube",
+          "score": 20
+        },
+        {
+          "text": "WhatsApp",
+          "score": 10
+        },
+        {
+          "text": "Snapchat",
+          "score": 10
+        },
+        {
+          "text": "Spotify",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "text": "Ce faci primul lucru dimineața?",
+      "multiplier": 3,
+      "answers": [
+        {
+          "text": "Verific telefonul",
+          "score": 35
+        },
+        {
+          "text": "Mă spăl pe față / dinți",
+          "score": 20
+        },
+        {
+          "text": "Mănânc micul dejun",
+          "score": 15
+        },
+        {
+          "text": "Mă îmbrac pentru școală",
+          "score": 10
+        },
+        {
+          "text": "Mă uit la ceas",
+          "score": 10
+        },
+        {
+          "text": "Îmi mai pun alarma pe snooze",
+          "score": 10
+        }
+      ]
+    }
+  ]
+}
