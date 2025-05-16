@@ -113,7 +113,7 @@ async def assign_score(request: Request):
     total_points = score * multiplier
     game_state.team_scores[team] += total_points
 
-    return next_question()
+    return {"status": "score assigned", "team": team, "points": total_points}
 
 
 @app.get("/team-scores")
