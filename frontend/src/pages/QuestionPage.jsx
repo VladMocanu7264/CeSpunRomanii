@@ -138,6 +138,11 @@ function QuestionPage() {
         });
     };
 
+    const handleRevealAll = () => {
+        const revealedIndexes = answers.map((_, index) => index);
+        setRevealedAnswers(revealedIndexes);
+    };
+
     const showStrikes = (count) => {
         setStrikeCount(count);
         setTimeout(() => setStrikeCount(0), 1500);
@@ -151,7 +156,18 @@ function QuestionPage() {
         }).then(() => {
             setTotalScore(0);
             fetchTeamScores();
+        });
+    };
+
+    const handleNextQuestion = () => {
+        fetch(`${backendUrl}/next-question`, {
+            method: "POST",
+        }).then(() => {
             fetchQuestion();
+            setRevealed(false);
+            setRevealedAnswers([]);
+            setBuzzedTeam(null);
+            setTotalScore(0);
         });
     };
 
@@ -235,6 +251,8 @@ function QuestionPage() {
                         <button onClick={() => showStrikes(3)}>❌❌❌</button>
                         <button onClick={() => assignScoreToTeam(1)}>🏆 Team 1 Wins</button>
                         <button onClick={() => assignScoreToTeam(2)}>🏆 Team 2 Wins</button>
+                        <button onClick={handleRevealAll}>Reveal All</button>
+                        <button onClick={handleNextQuestion}>Next Question</button>
                     </div>
                 </>
             )}
