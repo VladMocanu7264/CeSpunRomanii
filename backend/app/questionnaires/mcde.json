@@ -1,0 +1,114 @@
+{
+  "id": "mcde",
+  "name": "mcde",
+  "questions": [
+    {
+      "text": "Cum se poate implica concret comunitatea in educatie?",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Parteneriate cu instituții publice",
+          "score": 30
+        },
+        {
+          "text": "Colaborări cu ONG-uri și asociații",
+          "score": 25
+        },
+        {
+          "text": "Implicarea părinților",
+          "score": 20
+        },
+        {
+          "text": "Sprijin din partea agenților economici locali",
+          "score": 15
+        },
+        {
+          "text": "Voluntariat și mentorat",
+          "score": 10
+        }
+      ]
+    },
+    {
+      "text": "Ce beneficii pot aduce activitatile extracuriculare pentru managementul clasei?",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Coerenta educationala",
+          "score": 30
+        },
+        {
+          "text": "Climat pozitiv",
+          "score": 25
+        },
+        {
+          "text": "Resurse suplimentare",
+          "score": 25
+        },
+        {
+          "text": "Dezvoltare socio-emotionala",
+          "score": 20
+        }
+      ]
+    },
+    {
+      "text": "De ce este importanta comunicarea scoala-familie?",
+      "multiplier": 1,
+      "answers": [
+        {
+          "text": "Rezultate academice mai bune",
+          "score": 25
+        },
+        {
+          "text": "Dezvoltare emoțională și socială armonioasă",
+          "score": 20
+        },
+        {
+          "text": "Prevenirea și rezolvarea constructivă a problemelor",
+          "score": 20
+        },
+        {
+          "text": "Crearea unui climat școlar pozitiv bazat pe încredere",
+          "score": 15
+        },
+        {
+          "text": "Este important ca acasă și la școală sa vorbesca aceeași limbă",
+          "score": 10
+        },
+        {
+          "text": "Părinții informați pot oferi sprijin mai țintit și eficient ",
+          "score": 5
+        },
+        {
+          "text": "Comunicarea preventivă poate evita escaladarea conflictelor",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "text": "Care sunt elementele cheie ale unei comunicari eficiente?",
+      "multiplier": 2,
+      "answers": [
+        {
+          "text": "Ascultare activa",
+          "score": 30
+        },
+        {
+          "text": "Feedback constructiv",
+          "score": 20
+        },
+        {
+          "text": "Comunicare clara",
+          "score": 20
+        },
+        {
+          "text": "Empatie",
+          "score": 15
+        },
+        {
+          "text": "Asertivitate",
+          "score": 15
+        }
+      ]
+    }
+  ]
+}
