@@ -13,6 +13,8 @@ function QuestionPage() {
     const [buzzedTeam, setBuzzedTeam] = useState(null);
     const [strikeCount, setStrikeCount] = useState(0);
     const [revealed, setRevealed] = useState(false);
+    const [team1Name, setTeam1Name] = useState("Team 1");
+    const [team2Name, setTeam2Name] = useState("Team 2");
 
     const backendUrl = import.meta.env.VITE_BACKEND_URL;
 
@@ -27,8 +29,11 @@ function QuestionPage() {
             .then((data) => {
                 setTeam1Score(data.team1.score);
                 setTeam2Score(data.team2.score);
+                setTeam1Name(data.team1.name);
+                setTeam2Name(data.team2.name);
             });
     };
+
 
     const fetchQuestion = () => {
         fetch(`${backendUrl}/current-question`)
@@ -178,14 +183,14 @@ function QuestionPage() {
             {question === null ? (
                 <div className="game-over">
                     <h1>🎉 Game Over 🎉</h1>
-                    <p>Team 1: {team1Score} points</p>
-                    <p>Team 2: {team2Score} points</p>
+                    <p>{team1Name}: {team1Score} points</p>
+                    <p>{team2Name}: {team2Score} points</p>
                     <h2>
                         Winner:{' '}
                         {team1Score > team2Score
-                            ? 'Team 1'
+                            ? team1Name
                             : team2Score > team1Score
-                                ? 'Team 2'
+                                ? team2Name
                                 : 'It’s a tie!'}
                     </h2>
                     <button
@@ -238,11 +243,11 @@ function QuestionPage() {
                     <div className="total-score">Total: {totalScore}</div>
 
                     <div className="team-score left-score">
-                        {team1Score} - <strong>Team 1</strong>
+                        {team1Score} - <strong>{team1Name}</strong>
                     </div>
 
                     <div className="team-score right-score">
-                        <strong>Team 2</strong> - {team2Score}
+                        <strong>{team2Name}</strong> - {team2Score}
                     </div>
 
                     <div className="controls">
